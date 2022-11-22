@@ -1,0 +1,11 @@
+server.port: 55550
+spring.application.name: Registration
+spring.datasource.url: jdbc:h2:mem:customers
+spring:
+  jpa:
+    show-sql: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.50.33:8761/eureka
+eureka.instance.prefer-ip-address: true
